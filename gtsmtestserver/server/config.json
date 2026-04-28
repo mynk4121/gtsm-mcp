@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "gtsm-db": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "C:\\Users\\mynka\\Desktop\\gtsmtestserver\\gtsmtestserver\\mcp_servers\\database_server.py"
+      ]
+    },
+    "gtsm-api": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "C:\\Users\\mynka\\Desktop\\gtsmtestserver\\gtsmtestserver\\mcp_servers\\api_server.py"
+      ]
+    }
+  }
+}
