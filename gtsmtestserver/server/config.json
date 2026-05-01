@@ -8,7 +8,7 @@
         "mcp[cli]",
         "mcp",
         "run",
-        "C:\\Users\\mynka\\Desktop\\gtsmtestserver\\gtsmtestserver\\mcp_servers\\database_server.py"
+        "C:\\Users\\mynka\\Desktop\\bedrock test\\gtsmtestserver\\mcp_servers\\database_server.py"
       ]
     },
     "gtsm-api": {
@@ -19,7 +19,7 @@
         "mcp[cli]",
         "mcp",
         "run",
-        "C:\\Users\\mynka\\Desktop\\gtsmtestserver\\gtsmtestserver\\mcp_servers\\api_server.py"
+        "C:\\Users\\mynka\\Desktop\\bedrock test\\gtsmtestserver\\mcp_servers\\api_server.py"
       ]
     }
   }

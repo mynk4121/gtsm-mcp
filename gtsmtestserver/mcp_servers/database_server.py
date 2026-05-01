@@ -1,18 +1,19 @@
 """
 MCP Server 1: Direct Database Access (READ-ONLY)
-Tools that read from the read-only database
+SAFE + STABLE VERSION
 """
+
 from mcp.server.fastmcp import FastMCP
 import sqlite3
 import os
 
-# Set working directory
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
+# ❌ DO NOT use os.chdir in MCP servers
 
-# READ-ONLY database path
-DB_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "readonly.db")
+BASE_DIR = os.path.dirname(__file__)
+DB_PATH = os.path.join(BASE_DIR, "..", "data", "readonly.db")
 
 mcp = FastMCP("gtsm-db")
+
 
 
 def get_connection():
